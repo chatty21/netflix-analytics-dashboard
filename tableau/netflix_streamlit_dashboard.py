@@ -39,7 +39,7 @@ It blends data storytelling with rich visuals to uncover strategic insights from
 def load_data():
    df_content = pd.read_csv("tableau/netflix_simplified_with_quarter_expanded.csv")
    df_revenue = pd.read_csv("tableau/netflix_quarterly_revenue_2017_2025_complete.csv")
-    return df_content, df_revenue
+   return df_content, df_revenue
 
 df_content, df_revenue = load_data()
 
